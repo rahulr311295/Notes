@@ -35,3 +35,17 @@ If the following payload gets reflected in the Response we can use the cache to 
 Can lead to openredirect
 
 [Reference](https://www.youtube.com/watch?v=iSDoUGjfW3Q)
+
+
+## DNS Hijacking
+
+[Reference](https://www.youtube.com/watch?v=HhJv8CU-RIk&t=2s)
+[Can I TakeOver](https://github.com/EdOverflow/can-i-take-over-xyz)
+
+**Subdomain Takeovers**
+
+When a Company Uses a 3rd Party Service such as AWS,Heroku to host content and when the stop the use of that service  but the DNS record is not flushed which has the CNAME that points to that subdomain we can use that CNAME to create a new Service and Takeover the Subdomain.
+
+ - CNAME
+ - Hanging In-Active AWS IP
+ - 
